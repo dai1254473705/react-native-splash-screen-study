@@ -21,7 +21,7 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   componentDidMount() {
-    console.log("隐藏欢迎页");
+    console.log("隐藏启动页");
     console.log(SplashScreen);
     SplashScreen.hide(); // 隐藏启动屏
   }
